@@ -1,0 +1,46 @@
+body{
+    background-color: #eef3f8;
+}
+
+.navbar .navbar-brand > img{
+    width: 100px;
+}
+
+.msg-form{
+    margin-top: 100px;
+}
+
+.message-holder{
+    width: 70vw;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+}
+
+.card{
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+    }
+
+    .message-holder{
+        width: 90vw;
+    }
+}
+
+/* Register Page */
+.centerMe{
+    width: 65%;
+    margin: auto;
+    border: 1px solid green;
+}
